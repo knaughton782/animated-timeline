@@ -115,12 +115,24 @@ h2 {
 	margin: 20px 0;
 	text-shadow: #000 1px 1px 2px;
 }
+#issues li h3 {
+	color: #ffcc00;
+	font-size: 20px;
+	margin: 20px 0;
+	text-shadow: #000 1px 1px 2px;
+}
 #issues li p {
 	font-size: 14px;
 	margin-right: 70px;
 	font-weight: normal;
 	line-height: 22px;
 	text-shadow: #000 1px 1px 2px;
+}
+.caption {
+	font-size: .8em;
+	color: #ffffff;
+	margin-top: 25px;
+
 }
 #grad_left,
 #grad_right {
