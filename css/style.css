@@ -147,7 +147,7 @@ h2 {
 }
 #grad_left {
 	left: 0;
-	background: url('../images/grad_left.png') repeat-y;
+	/* background: url('../images/grad_left.png') repeat-y; */
 }
 #grad_right {
 	right: 0;
