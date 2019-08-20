@@ -39,10 +39,13 @@ h2 {
 	text-align: center;
 	margin-bottom: 20px;
 }
+.container {
+	display: flex;
+}
 #timeline { 
 	/* defines container */
 	width: 800px;
-	height: 500px;
+	height: 600px;
 	overflow: hidden;
 	margin: 100px auto;
 	position: relative;
@@ -74,12 +77,12 @@ h2 {
 }	
 #issues {
 	width: 800px;
-	height: 400px;
+	height: 500px;
 	overflow: hidden;
 }	
 #issues li {
 	width: 800px;
-	height: 400px;
+	height: 500px;
 	list-style: none;
 	float: left;
 }
@@ -128,17 +131,17 @@ h2 {
 	line-height: 24px;
 	text-shadow: #000 1px 1px 2px;
 }
-.caption {
-	font-size: .8em;
+.captionP {
 	color: #ffffff;
 	margin-top: 25px;
-	margin-left: 25px;
-
+}
+.caption {
+	font-size: .8em;
 }
 #grad_left,
 #grad_right {
 	width: 100px;
-	height: 350px;
+	height: 380px;
 	position: absolute;
 	top: 0;
 }
