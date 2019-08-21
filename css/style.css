@@ -42,12 +42,15 @@ h2 {
 .container {
 	display: flex;
 }
+.hidden {
+	visibility: hidden;
+}
 #timeline { 
 	/* defines container */
 	width: 800px;
-	height: 600px;
+	height: 500px;
 	overflow: hidden;
-	margin: 50px auto;
+	margin: 50px auto 10px auto;
 	position: relative;
 	background: url('../images/dot.gif') left 45px repeat-x;
 }
@@ -69,7 +72,7 @@ h2 {
 }
 #dates a {
 	line-height: 38px;
-	padding-bottom: 10px;
+	padding-bottom: 50px;
 }
 #dates .selected {
 	font-size: 38px;
@@ -95,7 +98,8 @@ h2 {
 }
 #issues li img {
 	float: left;
-	margin: 10px 40px 30px 50px;
+	padding-top: 25px;
+	margin: 40px 40px 30px 50px;
 	background: transparent;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
